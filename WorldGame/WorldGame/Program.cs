@@ -1,7 +1,31 @@
 ﻿using System;
-    public class Model //for functions
+
+   
+
+    public class planet
     {
 
+    String planetSize;
+    bool breathable;
+    bool water;
+    String planetName;
+
+        public planet(String x)
+{
+        this.water = true;
+        this.breathable = true;
+        this.planetSize = "small";
+        this.planetName = x;
+}    
+
+
+
+
+    }
+
+
+    public class Model //for functions
+    { 
         public Model()
         {
             
@@ -39,6 +63,7 @@
         Console.WriteLine("What would you like to name this planet?");
 
         planetName = Console.ReadLine();
+        planet planet = new planet(planetName);
 
         Console.WriteLine(planetName + " giggle..");
         Console.WriteLine("...");

@@ -40,7 +40,7 @@ namespace WorldGame
         }
         public double HatBonus
         {
-            set { this.hatBonus = value};
+            set { this.hatBonus = value; }
             get { return hatBonus; }
         } 
     }

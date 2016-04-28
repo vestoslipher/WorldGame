@@ -18,9 +18,6 @@
         this.planetName = x;
 }    
 
-
-
-
     }
 
 

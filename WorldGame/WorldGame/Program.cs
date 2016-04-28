@@ -1,27 +1,5 @@
 ﻿using System;
 
-   
-
-    public class planet
-    {
-
-    String planetSize;
-    bool breathable;
-    bool water;
-    String planetName;
-
-        public planet(String x)
-{
-        this.water = true;
-        this.breathable = true;
-        this.planetSize = "small";
-        this.planetName = x;
-}    
-
-
-
-
-    }
 
 
     public class Model //for functions

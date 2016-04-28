@@ -35,7 +35,7 @@
         static void Main(string[] args)
         {
 
-        bool check = true;
+        
         String userName;
         String planetName;
 

@@ -23,7 +23,7 @@
         Console.WriteLine("Hello! You are the only surivor of a spaceship crash on an unknown planet. To survive you must do science and invent new things.");
         Console.WriteLine("Do you wish to continue?");
 
-        if (string.Equals(Console.ReadLine(), "no", System.StringComparison.OrdinalIgnoreCase) || string.Equals(Console.ReadLine(), "y", System.StringComparison.OrdinalIgnoreCase))
+        if (string.Equals(Console.ReadLine(), "no", System.StringComparison.OrdinalIgnoreCase) || string.Equals(Console.ReadLine(), "n", System.StringComparison.OrdinalIgnoreCase))
             {
             Console.WriteLine("fuck you then");
         }

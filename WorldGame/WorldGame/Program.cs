@@ -41,7 +41,15 @@
         planetName = Console.ReadLine();
 
         Console.WriteLine(planetName + " giggle..");
+        Console.WriteLine("...");
 
+        Console.WriteLine("To survive you need 4 things:");
+        Console.WriteLine("- Shelter");
+        Console.WriteLine("- Food");
+        Console.WriteLine("- Breathable air");
+        Console.WriteLine("And water. You need water.");
+        Console.WriteLine("...");
+        Console.WriteLine("Luckily for you, the planet you're on currently on has all this. For now.");
 
 
         Console.ReadKey();

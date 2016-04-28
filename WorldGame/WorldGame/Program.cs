@@ -1,24 +1,5 @@
 ﻿using System;
 
-   
-
-    public class planet
-    {
-
-    String planetSize;
-    bool breathable;
-    bool water;
-    String planetName;
-
-        public planet(String x)
-{
-        this.water = true;
-        this.breathable = true;
-        this.planetSize = "small";
-        this.planetName = x;
-}    
-
-    }
 
 
     public class Model //for functions
@@ -35,14 +16,14 @@
         static void Main(string[] args)
         {
 
-        
+        bool check = true;
         String userName;
         String planetName;
 
         Console.WriteLine("Hello! You are the only surivor of a spaceship crash on an unknown planet. To survive you must do science and invent new things.");
         Console.WriteLine("Do you wish to continue?");
-        string y = Console.ReadLine();
-        if (string.Equals(y, "no", System.StringComparison.OrdinalIgnoreCase) || string.Equals(y, "yes", System.StringComparison.OrdinalIgnoreCase))
+
+        if (string.Equals(Console.ReadLine(), "no", System.StringComparison.OrdinalIgnoreCase) || string.Equals(Console.ReadLine(), "y", System.StringComparison.OrdinalIgnoreCase))
             {
             Console.WriteLine("fuck you then");
         }
@@ -64,7 +45,7 @@
 
         Console.WriteLine(planetName + " giggle..");
         Console.WriteLine("...");
-        
+
         Console.WriteLine("To survive you need 4 things:");
         Console.WriteLine("- Shelter");
         Console.WriteLine("- Food");
@@ -72,7 +53,7 @@
         Console.WriteLine("And water. You need water.");
         Console.WriteLine("...");
         Console.WriteLine("Luckily for you, the planet you're on currently on has all this. For now.");
-        
+
 
         Console.ReadKey();
 

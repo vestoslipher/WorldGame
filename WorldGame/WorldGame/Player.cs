@@ -13,6 +13,14 @@ namespace WorldGame
         private double hatBonus;
         private int xp;
 
+        public Player(String name, double hatBonus ) 
+        {
+            this.name = name;
+            this.level = 1;
+            this.hatBonus = 1;
+            this.xp = 0;
+        }
+
         public string Name
         {
             get

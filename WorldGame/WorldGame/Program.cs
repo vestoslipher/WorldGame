@@ -41,8 +41,8 @@
 
         Console.WriteLine("Hello! You are the only surivor of a spaceship crash on an unknown planet. To survive you must do science and invent new things.");
         Console.WriteLine("Do you wish to continue?");
-
-        if (string.Equals(Console.ReadLine(), "no", System.StringComparison.OrdinalIgnoreCase) || string.Equals(Console.ReadLine(), "y", System.StringComparison.OrdinalIgnoreCase))
+        string y = Console.ReadLine();
+        if (string.Equals(y, "no", System.StringComparison.OrdinalIgnoreCase) || string.Equals(y, "y", System.StringComparison.OrdinalIgnoreCase))
             {
             Console.WriteLine("fuck you then");
         }
@@ -64,7 +64,7 @@
 
         Console.WriteLine(planetName + " giggle..");
         Console.WriteLine("...");
-        Console.Beep(frequency: 10000, duration: 100000);
+        
         Console.WriteLine("To survive you need 4 things:");
         Console.WriteLine("- Shelter");
         Console.WriteLine("- Food");

@@ -8,5 +8,6 @@ namespace WorldGame
 {
     class Model
     {
+        
     }
 }

@@ -6,15 +6,16 @@ using System.Threading.Tasks;
 
 namespace WorldGame
 {
-    public class planet
+    public class Planet
     {
 
        private String planetSize;
      private   bool breathable;
        private bool water;
        private String planetName;
+        
 
-        public planet(String x)
+        public Planet(String x)
         {
             this.water = true;
             this.breathable = true;

@@ -64,7 +64,7 @@
 
         Console.WriteLine(planetName + " giggle..");
         Console.WriteLine("...");
-
+        Console.Beep(frequency: 10000, duration: 100000);
         Console.WriteLine("To survive you need 4 things:");
         Console.WriteLine("- Shelter");
         Console.WriteLine("- Food");
@@ -72,7 +72,7 @@
         Console.WriteLine("And water. You need water.");
         Console.WriteLine("...");
         Console.WriteLine("Luckily for you, the planet you're on currently on has all this. For now.");
-
+        
 
         Console.ReadKey();
 
